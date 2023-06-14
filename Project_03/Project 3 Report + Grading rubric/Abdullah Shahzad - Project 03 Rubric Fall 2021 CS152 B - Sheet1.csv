@@ -1,0 +1,31 @@
+CS152 Project 03 Rubric,,,,,,,,
+"Grading: A project grade of 29 or 30 is a mark of honor, not given lightly. Recieving 1-4 extension points means that you earned 1-4 points on top of your core project. It does not mean that you lost 1 or more points. Celebrate your successes, and use the extension as an opportunity to explore a design challenge that interests you.",,,,,,,,
+"Instructions for graders: To use this rubric, place an ""x"" in the appropriate column to indicate whether criteria are strongly satisfied, partially satisfied, or absent. Unmarked rows default to absent.",,,,,,,,
+"Writeup Criteria
+Writeups should be about 1 page long + images.",Strong,Mostly There,Deveoping,Insufficient/Absent,Coeff,Max Pts Possible,Pts Earned,Comments
+Title: clearly describes the project.,x,,,,1,0.25,0.25,
+"Abstract defines this project's key lecture concepts for a general, non-CS audience. Key lecture topics are defined at the top of the project instructions. Be sure to describe how you used them to create your project results.",x,,,,1,0.5,0.5,
+"Abstract summarizes program's context and output,in 1-2 sentences, highlighting a couple of important algorithmic and/or scientific details. What does your program do? What should the user expect to see when they run your program? ",x,,,,1,1,1,
+Results: All required Images (and any extension images/videos) are present and clearly labelled with results text for each image.,,x,,,0.75,1,0.75,"Required Output 2 should include comparisions on sum, var, min, max"
+"Results are clearly presented in human-friendly images (e.g. graphs), labeled with captions, and concisely but clearly interpreted for a general audience (who have not taken this course) in the text. If your output includes numbers, explain for a general audience what these numbers mean!",x,,,,1,1,1,
+Reflection (in a brief paragraph) draws connections between lecture concepts utilized in this project and real-world problems that interest you. How else could these concepts apply to our everyday lives? Also addresses all of the follow up questions included at the end of the project.,x,,,,1,0.75,0.75,
+"Acknowledgements: Sources, imported libraries, tutorials, and collaborators are cited, or a note is included indicating that none were referenced.",x,,,,1,0.5,0.5,
+Report Subtotal ,4.75,/,5.0,,,,,
+Core Task Criteria,Strong,Developing,Emerging,Insufficient,Coeff,Max Pts Possible,Pts Earned,Comments
+"File header at the top of every file includes your name, the date, a description of the file's purpose, and instructions on how to run the project from the Terminal.",x,,,,1,1,1,
+"Docstrings are present in every function. Each docstring describes the function's purpose, its parameters, and its return value (if any).",x,,,,1,2,2,
+"Comments explain key design and implementation decisions, e.g. complex equations and blocks of code. For example, please label each version of your sum and average calculations.",x,,,,1,1,1,
+Code organization: Code is organized into functions with no significant top-level code. The program's first algorithmic step is a call to the main() function.,x,,,,1,2,2,
+"Variable names are brief but descriptive, helping others understand the purpose of each variable.",x,,,,1,1,1,
+"TASK 1:  stats.py contains correct and efficient functions for sum(data), mean(data), min(data), max(data), and variance(data), where data is a list of numeric values.",x,,,,1,4,4,
+"TASK 2:  analyze.py prints the nicely formatted sum, mean, max, min, and variance of the given data file by importing functions from the stats library. The code for the stats functions has not been copied over into analyze.py.",x,,,,1,4,4,
+"TASK 3:  thermocline.py correctly implements density(), thermocline_depth(), and main() functions to either print the nicely formatted thermocline to the terminal or save it to a file.",x,,,,1,6,6,
+Core Task Subtotal,21.00,/,21.0,,,,,
+Extension Criteria,Mind Blowing,Excellent,Cool,"No ext, and that's OK!",Coeff,Max Pts Possible,Pts Earned,Comments
+"Creativity: Extension tackles a new and interesting design challenge. Examples include (but are not limited to!) using CS to solve a problem in another course, modeling something in the real world that interests you, creating a game, or exploring a CS principle we haven't yet talked about in class.",,x,,,0.75,1,0.75,Add functions in stats.py; Compare the thermocline at different times; Add cmmand line control options; Analyze the relationship between wind direction and themocline
+"Applying concepts: Extension demonstrates that you take concepts from class (and related ones) and apply them in creative, appropriate ways that shows that you understand how they work.
+",x,,,,1,1,1,
+Efficiency: Extension demonstrates computational thinking by solving your chosen problem in as few lines of code and with as few computational operations as possible (without sacrificing readability).,x,,,,1,1,1,
+Extension Documentation: You explain in your report (and ideally code comments) so it is clear to the grader what you created and how you implemented it.,x,,,,1,1,1,
+Extension Subtotal,3.75,/,4.0,,,,,
+Project Score,29.5, / ,30.0,,,,,
