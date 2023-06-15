@@ -1,0 +1,50 @@
+CS152 Project 07 Rubric,,,,,,,,
+"Grading: A project grade of 29 or 30 is a mark of honor, not given lightly. Recieving 1-3 extension points means that you earned 1-3 points on top of your core project. It does not mean that you lost 1 or more points. Celebrate your successes, and use the extension as an opportunity to explore a design challenge that interests you.",,,,,,,,
+"On the house: A few points are ""on the house,""  meaning that they are earned in full by every completed project. The score entry boxes for these points are grayed out in the rubric.",,,,,,,,
+"Instructions for graders: To use this rubric, place an ""x"" in the appropriate column to indicate whether criteria are strongly satisfied, partially satisfied, or absent. Unmarked rows default to absent.",,,,,,,,
+Report Criteria,Strong,Developing,Emerging,Insufficient,Coeff,Max Pts Possible,Pts Earned,Comments
+"Abstract defines this project's key lecture concepts for a general, non-CS audience. ",x,,,,1,1,1,
+"Abstract describes program's context and output, highlighting a couple of important algorithmic and/or scientific details. What does your program do? What should the user expect to see when they run your program?",x,,,,1,0.25,0.25,
+"Solutions to tasks: Summarize key design and implementation decisions in your own words, focusing on part(s) of the project that most interested you and/or that required you to debug a tricky solution. This can often be done in 2-3 paragraphs if you're writing very clearly and to the point, but use your judgement.",x,,,,1,0.75,0.75,
+"All included images/outputs are labeled with captions and explained in the text. For full credit, you must explain every output value and plot for the reader, including its units and what this value/plot says about the world!",x,,,,1,1,1,
+Follow up questions are answered in your own words.,x,,,,1,0.5,0.5,
+Reflection addresses how the lecture concepts from the abstract made this project achievable and how they apply to our everyday lives. For example: How many more lines of code this project would have taken without these tools? What other kinds of problems could you solve with these tools? Is there a connection between this project and a familiar tool you've used outside of class?,x,,,,1,0.5,0.5,
+"Sources, imported libraries, and collaborators are cited, or a note is included indicating that none were referenced.",x,,,,1,1,1,Very detailed and well organized.
+Report Subtotal ,5.0,/,5.0,,,,,
+Core Task Criteria,Strong,Developing,Emerging,Absent,Coeff,Max Pts Possible,Pts Earned,Comments
+"File header at the top of every file includes your name, the date, a description of the file's purpose, and instructions for how to run the project from the Terminal.",x,,,,1,1,1,
+"Docstrings are present in every function. Each docstring describes the function's purpose, its parameters, and its return value (if any).",x,,,,1,2,2,
+"Comments explain key design and implementation decisions, e.g. complex equations and blocks of code. For example, what does your if-elif-else test for, and why? What does your loop iterate over, and why?",x,,,,1,1,1,
+Code organization: Code is organized into functions with no significant top-level code. The program's first algorithmic step is a call to the main() function. Library functions are imported rather than rewritten in the main file.,x,,,,1,1,1,
+"Variable and function names are brief but descriptive, helping others understand the purpose of each variable.",x,,,,1,1,1,
+"LAB: Ball class 
+
+A constructor initializes fields for vis, position, velocity, acceleration, force, mass, and radius. The field vis is a list that contains one element: a Zelle graphics Circle.  
+
+All fields except vis have accessor and mutator methods. Mutators update the representation of the Ball in both physics (e.g. its radius and x, y coordinates) and graphics (its visualization) as necessary. 
+
+Ball.draw() loops over vis, drawing each Graphics object in the window.
+
+Ball.update() simulates the Ball's projectile motion using Newtonian mechanics. Both its physics coordinates and visualization coordinates are updated appropriately. Tested using fall.py.",x,,,,1,3,3,
+"TASK 1: Block class
+
+A constructor initializes fields for vis, position, velocity, acceleration, width, and height.
+
+All fields except vis have accessor and mutator methods. Mutators update the Block's physics and graphics as necessary.
+
+Block.draw() and Block.undraw() control the visibility of the Block in the window.
+
+Block.update() simulates the Block's projectile motion using Newtonian mechanics. Both its physical and graphical representations are updated appropriately.",x,,,,1,3,3,
+"TASKS 2-3: Collision Demo. 
+
+Block.collision( self, ball ) returns True if the Ball object is touching the Block (self). 
+
+Ball-Block collisions are demonstrated with a test file (e.g. an adapted fall.py). In this test file, Ball-Block collisions must cause any Block that has been collided with to disappear from the simulation, both graphically and physically. In other words, it is no longer visible on the screen, and cannot collide with anything in the future.",x,,,,1,3,3,
+TASK 4: Interactive Demo. Ball and Block dynamics are integrated into an interactive demonstration that allows the user to control something about a Ball or Block object's behavior using mouse clicks and/or key presses.,x,,,,1,3,3,
+On the house: These points are on the house. Great work completing the project!,x,,,,1,3,3,
+Core Task Subtotal,21.0,/,21.0,,,,,
+Extension Criteria,Mind Blowing,Cooler,Cool,"No ext, and that's OK!",Coeff,Max Pts Possible,Pts Earned,Comments
+"Creativity: Extension tackles a new and interesting design challenge. Examples include (but are not limited to!) using CS to solve a problem in another course, modeling something in the real world that interests you, creating a game, or exploring a CS principle we haven't yet talked about in class.",,x,,,0.5,3,1.5,
+Efficiency: Extension demonstrates computational thinking by solving your chosen problem in as few lines of code and with as few computational operations as possible (without sacrificing readability).,,x,,,0.5,1,0.5,
+Extension Subtotal,2.0,/,4.0,,,,,
+Project Score,28.0, / ,30.0,,,,,
