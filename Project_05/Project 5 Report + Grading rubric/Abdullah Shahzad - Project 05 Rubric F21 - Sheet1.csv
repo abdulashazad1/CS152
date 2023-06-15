@@ -1,0 +1,27 @@
+CS152 Project 05 Rubric,,,,,,,,
+"Grading: A project grade of 29 or 30 is a mark of honor, not given lightly. Recieving 1-3 extension points means that you earned 1-3 points on top of your core project. It does not mean that you lost 1 or more points. Celebrate your successes, and use the extension as an opportunity to explore a design challenge that interests you.",,,,,,,,
+"Instructions for graders: To use this rubric, place an ""x"" in the appropriate column to indicate whether criteria are strongly satisfied, partially satisfied, or absent. Unmarked rows default to absent.",,,,,,,,
+"Writeup Criteria
+Writeups should be about 1 page long + images.",Strong,Developing,Emerging,Insufficient,Coeff,Max Pts Possible,Pts Earned,Comments
+"Abstract defines this project's key lecture concepts for a general, non-CS audience. This week's key lecture topic is multidimensional lists. ",x,,,,1,1,1,
+"Abstract summarizes program's context and output,in 1-2 sentences, highlighting a couple of important algorithmic and/or scientific details. What does your program do? What should the user expect to see when they run your program?",x,,,,1,1,1,
+"Results are clearly presented in human-friendly images (e.g. graphs), labeled with captions, and concisely but clearly interpreted for a general audience (who have not taken this course) in the text. If your output includes numbers, explain for a general audience what these numbers mean!",x,,,,1,1.5,1.5,
+Reflection (in a brief paragraph) draws connections between lecture concepts utilized in this project and real-world problems that interest you. How else could these concepts apply to our everyday lives? ,x,,,,1,0.25,0.25,
+Follow-up answers are correct and in your own words.,x,,,,1,0.25,0.25,
+"Acknowledgements: Sources, imported libraries, tutorials, and collaborators are cited, or a note is included indicating that none were referenced.",x,,,,1,1,1,This was a very good report with excellent explanations of the results.
+Report Subtotal ,5.0,/,5.0,,,,,
+Core Task Criteria,Strong,Developing,Emerging,Insufficient,Coeff,Max Pts Possible,Pts Earned,Comments
+"File header at the top of every file includes your name, the date, a description of the file's purpose, and instructions on how to run the project from the Terminal.",x,,,,1,1,1,
+"Docstrings are present in every function. Each docstring describes the function's purpose, its parameters, and its return value (if any).",x,,,,1,2,2,
+"Comments explain key design and implementation decisions, e.g. complex equations and blocks of code. For example, please label each version of your sum and average calculations.",x,,,,1,1,1,
+Code organization: Code is organized into functions with no significant top-level code. The program's first algorithmic step is a call to the main() function.,x,,,,1,1,1,
+"Variable and function names are brief but descriptive, helping others understand their purpose.",x,,,,1,1,1,
+"LAB TASKS 1-3:  elephant.py contains correct and efficient functions for elephant creation and aging: newElephant(), initPopulation(), incrementAge().",x,,,,1,4,4,
+"TASKS 1-8:  elephant.py contains correct and efficient functions for both population control strategies: calcSurvival(), dartElephants(), cullElephants(), controlPopulation(), simulateMonth(), simulateYear(), calcResults(), runSimulation().",x,,,,1,8,8,
+"TASK 9: main() accepts the probability of darting as a command line parameter, initializes the parameters list, runs a simulation, and prints the helpfully labeled results to the terminal.",x,,,,1,3,3,
+Core Task Subtotal,21.0,/,21.0,,,,,
+Extension Criteria,Mind Blowing,Excellent,Cool,"No ext, and that's OK!",Coeff,Max Pts Possible,Pts Earned,Comments
+"Creativity: Extension tackles a new and interesting design challenge. Examples include (but are not limited to!) using CS to solve a problem in another course, modeling something in the real world that interests you, creating a game, or exploring a CS principle we haven't yet talked about in class.",,x,,,0.5,3,1.5,
+Efficiency: Extension demonstrates computational thinking by solving your chosen problem in as few lines of code and with as few computational operations as possible (without sacrificing readability).,,x,,,0.5,1,0.5,
+Extension Subtotal,2.0,/,4.0,,,,,
+Project Score,28.0, / ,30.0,,,,,
