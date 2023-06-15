@@ -1,0 +1,48 @@
+,,,,,,,,
+"Coefficients are assigned as Strong = 1, Partial = 0.5, Absent = 0.",,,,,,,,
+Coefficients are multiplied by each category's total points to factor relative importance of criteria into final scores.,,,,,,,,
+Hand-In Prerequisites,Yes,,,No,Coeff,Max Points Possible,Points Earned,Comments
+Submitted in projectN folder in private directory on Classes server,,,,,1,1,1,Necessary for project grading
+All required code files are present and correctly named,,,,,1,1,1,Necessary for project grading
+Report is on the Wiki with the appropriate label,,,,,1,1,1,Necessary for project grading
+Submission Complete,1.0,,/,1.0,,,,
+Report Criteria,Strong,Mostly There,Developing,Absent,Coeff,Max Points Possible,Points Earned,Comments
+Title clearly describes the internship interview project.,x,,,,1,0.25,0.25,
+Abstract identifies key course concepts relevant to the project and how you used them to create your project.,x,,,,1,0.5,0.5,
+"Project Description: Provide a brief description of the specific programming processes, concepts, and/or approaches to your potential employer so they can quickly understand and be persuaded of your programming skills based on the key components of your work.
+",x,,,,1,1,1,
+Project Design Sketch/Image: Provide a sketch or image of your project design.,x,,,,1,0.5,0.5,
+"Critical evaluation of your design: what you might do differently in the next iteration. This is an analysis of your own solution and its rationale, methods, and implications.",x,,,,,0.75,0.5,
+Potential biases or limitations: Identify potential issues in the dataset(s) or solutions/models and what might be done to safeguard against any harm or negative impact of the analysis.,x,,,,,0.75,0.5,
+Personal Reflection addressing how you have used course concepts to achieve your final project design and implementation.,x,,,,1,0.75,0.75,
+"Sources, imported libraries, and collaborators are cited, or a note is included indicating that none were referenced.",x,,,,1,0.5,0.5,
+Report Score,5.0,,/,5.0,5.0,,,
+General Project Criteria,Strong,Mostly There,Partial,Absent,Coeff,Max Points Possible,Points Earned,Comments
+"Name, date, section, project, and course are included in triple quote docstrings at the top of each file.",x,,,,1,0.5,0.5,
+"Reproducibility: Does running the attatched files from the Terminal generate the expected outputs? Actual outputs are not graded here, this is just a check that the program works without crashing or exiting unexpectedly.
+YOU MUST provide instructions for me to run your file(s) and YOU MUST provide a short video demonstrating your program running as expected.",x,,,,1,1,1,
+"Import statements are at the top of your files, before any functions.",x,,,,1,0.5,0.5,
+Function readability: Functions are separated by two blank lines.,x,,,,1,0.5,0.5,
+"Functions docstrings: Every function has a triple quote docstring immediately below the ""def"" line.",x,,,,1,0.5,0.5,
+"Main code is only at the bottom of each file only (i.e. NOT interspersed with your function definitions).
+- All main code is in a main function, and the function is called inside an                      if __name__== '__main__': statement.",x,,,,1,1,1,
+Code in attached files are organized into functions with no significant top-level code,x,,,,1,1,1,
+General Project Criteria Score,5.0,,/,5.0,,,,
+Core Task Criteria,Strong,Mostly There,Partial,Absent,Coeff,Max Points Possible,Points Earned,Comments
+"Modularity: Making functions work as independent units that you can re-use at any time. This demonstrating you can make small, modular functions with keyword parameters that contribute to larger composite functions with test functions for composite shapes and scenes.
+",x,,,,1,3,3,
+"User Interaction: Use of conditionals, user input prompts, and/or command-line arguments to add nuance and interactive features to your museum tour.",x,,,,1,3,3,
+"Function complexity: use of randomization, return values, multiple keyword assignments, and/or use of lists to effectively organize multiple complex objects, dictionaries, or recursive functions",x,,,,,3,,
+"Plots, graphs, videos, visualizations: appropriate graphics to effectively communicate results of analysis with concise but meaningful interpretations and explanations for your audience.",x,,,,,3,,
+Choose 2 out of 3 components/features:,x,,,,,,,
+"Complex Objects and Scenes: Zelle complex objects (e.g., collections of Zelle graphics primitives). Each complex object will have a function that initializes it (__init__) . Complex objects that change will have a function that controls it (e.g., changes it, animates it, etc.) and a function that tests it.",x,,,,1,3,3,
+Recursion: At least one use of a recursive function to perform some type of analysis in your solution.,x,,,,1,3,3,
+Inheritance: One part of the project that uses parent and child classes with accessor and mutator methods to separate how data is stored from how it is used in Classes and Objects.,x,,,,1,3,3,
+,,,,,1,,,
+Core Task Score,18.0,,/,18.0,,,,
+Extension Criteria,Mind Blowing,Excellent,Cool,Absent,Coeff,Max Points Possible,Points Earned,Comments
+"Applying concepts: Extension demonstrates that you take concepts from class (and related ones) and apply them in creative, appropriate ways that shows that you understand how they work.
+ IF YOU INCLUSE AN EXTENSION, YOU MUST describe in your report where you extension is and why you choose to include it (e.g., what does it show you learned how to do this semester?)",,x,,,0.75,1,0.75,
+"Creativity and complexity: Your scene is creatively constructed and complex. Extension points in this category apply to the scene that you create in the core project (it could also be a separate extension scene, but somethign novel you have implemented in your core project counts too).",,x,,,0.75,1,0.75,
+Extension Score,1.5,,/,2.0,,,,
+Project Score,29.5,, / ,30.0,,,,
